@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>SweetCake</title>
+<link rel="shortcut icon" href="favicon.ico"><link href="css/app.css" rel="stylesheet"></head>
+
+<body>
+    <!-- begin: Scroll to top -->
+    <a href="#" class="totop"><i class="fas fa-arrow-up"></i></a>
+    <!-- end: Scroll to top -->
+    <!-- begin: offCanvas -->
+    <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menunav">
+        <span class="btn btn-close">&times;</span>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Trang chủ</a></li>
+            <li><a href="#"><i class="fas fa-air-freshener"></i> Sản phẩm</a></li>
+            <li><a href="#"><i class="fab fa-blogger-b"></i> Blog</a></li>
+            <li><a href="#"><i class="fas fa-apple-alt"></i> Giới thiệu</a></li>
+            <li><a href="#"><i class="fas fa-file-contract"></i> Liên hệ</a></li>
+        </ul>
+    </div>
+    <!-- end: offCanvas -->
+    <!-- begin: page -->
+    <div id="pageContainer">
+        <!-- begin: header -->
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">
+                            <div class="top-header__left list">
+                                <a href="#" class="list__item"><i class="fas fa-phone list__icon list__icon"></i>
+                                    Hotline: 1900.636.099</a>
+                                <a href="#" class="list__item"><i class="far fa-envelope list__icon list__icon"></i>
+                                    E-mail: hi@haravan.com</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="top-header__right list justify-content-end">
+                                <a href="#" class="list__item list__item--sm"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fas fa-wifi"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fab fa-google"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fab fa-pinterest"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fas fa-camera"></i></a>
+                                <a href="#" class="list__item list__item--sm"><i class="fas fa-air-freshener"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+                            <div class="main-header__logo d-flex justify-content-center">
+                                <img src="public/images/logo.png" class="img-fluid" alt="logo">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class="main-header__form">
+                                <div class="row login">
+                                    <div class="col-lg-12">
+                                        <div class="list">
+                                            <a href="#" class="list__item list__item--bdr list__item--xs"><i
+                                                    class="fas fa-key list__icon"></i> Đăng nhập</a>
+                                            <a href="#" class="list__item list__item--xs"><i
+                                                    class="fas fa-user list__icon"></i> Đăng kí</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <form class="search" method="" action="">
+                                            <div class="search__text">
+                                                <input type="text" name="" placeholder="Tìm kiếm...">
+                                            </div>
+                                            <div class="search__btn">
+                                                <input type="submit" name="" value="Tìm kiếm">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 col-4">
+                                        <form class="shop" method="" action="">
+                                            <button type="submit" class="shop__btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Giỏ hàng (0)</span>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end: header -->
+        <!-- begin: nav -->
+        <nav class="navVer stickMenu">
+            <div class="container">
+                <div class="menuVer">
+                    <a href="#" class="menuVer__item activeVer">trang chủ</a>
+                    <a href="#" class="menuVer__item">sản phẩm</a>
+                    <a href="#" class="menuVer__item">blog</a>
+                    <a href="#" class="menuVer__item">giới thiệu</a>
+                    <a href="#" class="menuVer__item">liên hệ</a>
+                </div>
+            </div>
+        </nav>
+        <!-- end: nav -->
+        <!-- begin: main -->
+        <div class="main">
+            <div class="container">
+                <section>
+                    <form class="row was-validate">
+                        <div class="col-md-9 col-sm-12 col-12">
+                            <div class="line">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="custom">
+                                            <label class="custom-control-label" for="custom">Chọn tất cả (1 sản
+                                                phẩm)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        Xoá tất cả <a href="#" class="del-btn"><i class="fas fa-trash-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 col-sm-1 col-1">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" required id="sp">
+                                            <label class="custom-control-label" for="sp"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-8 col-8">
+                                        <div class="row product">
+                                            <div class="col-md-3 col-sm-3 col-3 product-img">
+                                                <div class="product-img__crop">
+                                                    <img src="public/images/cake.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9 col-9 product-content">
+                                                <h6>Bánh kem Tasty</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-3 col-3 price">
+                                        <p class="price__fee">200000đ</p>
+                                        <p class="price__old">220000đ</p>
+                                        <p class="price__sale">-20%</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <!-- <div class="quantity"> -->
+                                        <input type="number" min="1" max="1000" step="1" class="count" value="1">
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a href="#" class="del-btn"><i class="fas fa-trash-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="row align-items-center">
+                                    <div class="col-md-1 col-sm-1 col-1">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" required id="sp">
+                                            <label class="custom-control-label" for="sp"></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-8 col-8">
+                                        <div class="row product">
+                                            <div class="col-md-3 col-sm-3 col-3 product-img">
+                                                <div class="product-img__crop">
+                                                    <img src="public/images/cake.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9 col-9 product-content">
+                                                <h6>Bánh kem Tasty</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-3 col-3 price">
+                                        <p class="price__fee">100000đ</p>
+                                        <p class="price__old">220000đ</p>
+                                        <p class="price__sale">-20%</p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="number" min="1" max="1000" step="1" class="count" id="numberTest"
+                                            value="1" class="">
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a href="#" class="del-btn"><i class="fas fa-trash-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="line">
+                                <h5 class="sum-title">Thông tin đơn hàng</h5>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <span class="sum-desc">Tạm tính: </span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <span class="sum-fee" id="tamtinh"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <span class="sum-desc">Khuyến mãi: </span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <span class="sum-fee" id="khuyenmai"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <span class="sum-desc sum-desc--title">Tổng tiền: </span>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-6">
+                                        <span class="sum-fee sum-fee--title" id="thanhtien"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-outline-info btn-sm">Tiếp tục mua hàng</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-success w-100">Thanh toán</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <div class="sweet">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-md-9 col-sm-9 col-9">
+                            <h3 class="sweet__title">sản phẩm liên quan</h3>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-3 text-right">
+                            <a class="btn btn-secondary btn-sm prev-btn">
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a class="btn btn-secondary btn-sm next-btn">
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bonSlide" id="slide">
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                    <div class="bonS">
+                        <div class="bonS__main">
+                            <a href="#">
+                                <div class="bonS__img">
+                                    <div class="bonS_imgCrop">
+                                        <img src="public/images/fruits.jpg" class="">
+                                    </div>
+                                </div>
+                                <h3 class="bonS__title text-center">Sweet Bon</h3>
+                            </a>
+                            <div class="bonS__price text-center">
+                                <div class="bonS__fee">1,200,200đ</div>
+                                <div class="bonS__del">1,290,000đ</div>
+                            </div>
+                            <div class="bonS__btn">
+                                <a href="#" class="btn btn-outline-dark bonS__link"><i class="fas fa-cart-plus"></i> Mua
+                                    hàng</a>
+                            </div>
+                            <div class="bonS__fast btn btn-danger"><i class="far fa-check-square"></i> Xem nhanh
+                            </div>
+                            <div class="bonS__cir text-center">20%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: main -->
+        <!-- begin: footer -->
+        <footer>
+            <!-- begin: footer-top -->
+            <div class="ft-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="bear">
+                                <div class="bear__main">
+                                    <div class="bear__icon"><i class="fab fa-algolia"></i></div>
+                                    <div class="bear__contact">+ 1900.636.099</div>
+                                    <div class="bear__desc">hỗ trợ trực tuyến</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bear">
+                                <div class="bear__main">
+                                    <div class="bear__icon"><i class="fab fa-algolia"></i></div>
+                                    <div class="bear__contact">thời gian làm việc</div>
+                                    <div class="bear__desc">các ngày trong tuần</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bear">
+                                <div class="bear__main">
+                                    <div class="bear__icon"><i class="fab fa-algolia"></i></div>
+                                    <div class="bear__contact">giao hàng miễn phí</div>
+                                    <div class="bear__desc">với hoá đơn trên 500k</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="bear">
+                                <div class="bear__main">
+                                    <div class="bear__icon"><i class="fab fa-algolia"></i></div>
+                                    <div class="bear__contact">đổi trả hàng</div>
+                                    <div class="bear__desc">đổi trả miễn phí 7 ngày</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: footer-top -->
+            <!-- begin: footer-mid -->
+            <div class="ft-mid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="bush">
+                                <a href="#" class="bush__title">liên kết</a>
+                                <div class="bush__list">
+                                    <a href="#" class="bush__link"><i class="far fa-star"></i> trang chủ</a>
+                                    <a href="#" class="bush__link"><i class="far fa-star"></i> sản phẩm</a>
+                                    <a href="#" class="bush__link"><i class="far fa-star"></i> blog</a>
+                                    <a href="#" class="bush__link"><i class="far fa-star"></i> giới thiệu</a>
+                                    <a href="#" class="bush__link"><i class="far fa-star"></i> liên hệ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bush">
+                                <a href="#" class="bush__title">kết nối với chúng tôi</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="bush">
+                                <a href="#" class="bush__title">bản tin</a>
+                                <form class="search" method="" action="">
+                                    <div class="search__text">
+                                        <input type="text" name="" placeholder="Nhập email của bạn">
+                                    </div>
+                                    <div class="search__btn--icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </form>
+                                <div class="bush__hi">
+                                    <a href="#" class="bush__icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fas fa-wifi"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fab fa-youtube"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fab fa-google"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fab fa-pinterest"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fas fa-camera"></i></a>
+                                    <a href="#" class="bush__icon"><i class="fas fa-air-freshener"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: footer-mid -->
+            <!-- begin: footer-bot -->
+            <div class="ft-bot">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">COPYRIGHT © 2019 SWEET HOME. POWERED BY HARAVAN.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: footer-bot -->
+        </footer>
+        <!-- end: footer -->
+    </div>
+    <!-- end: page -->
+<script type="text/javascript" src="./js/app.bundle.js"></script></body>
+
+</html>
